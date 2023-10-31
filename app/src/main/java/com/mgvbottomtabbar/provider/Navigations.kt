@@ -16,7 +16,7 @@ import androidx.navigation.compose.composable
 
 
 @Composable
-fun Navigations(
+fun Navigation(
     navController: NavHostController
 ) {
     NavHost(navController, startDestination = NavigationItem.Home.route) {
